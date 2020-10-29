@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using TMPro;
 
+
 public class forklift : MonoBehaviour
 {
     [Header("UI elements")]
@@ -90,21 +91,22 @@ public class forklift : MonoBehaviour
         {
             Debug.Log("Something");
             //then enter the forklift
+            FPS = GameObject.Find("/Player(Clone)");
             FPS.SetActive(false);
-
             cameraInteriorForklift.SetActive(true);
             cameraExteriorForklift.SetActive(false);
             canEnterText.SetActive(false);
             enter = true;
             inForkliftMenu.SetActive(true);
-            Debug.Log("we're almost there");
+            
+            //Debug.Log("we're almost there");
 
             //added these 2 to try to unrender/disable controls while in forklift
-            FPS.GetComponent<CapsuleCollider>().enabled = false;
+            /*FPS.GetComponent<CapsuleCollider>().enabled = false;
             FPS.GetComponent<CharacterController>().enabled = false;
             Debug.Log("we're here");
             UnityEngine.Object.Destroy(FPS);
-            Debug.Log("Did it delete?");
+            Debug.Log("Did it delete?");*/
         }
 
         //if is not enter, execute again the update method

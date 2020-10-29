@@ -10,19 +10,20 @@ namespace Mirror.Examples.Additive
     {
         public CharacterController characterController;
         public CapsuleCollider capsuleCollider;
+        public GameObject body;
+        public float speedH = 2.0f;
+        public float speedV = 2.0f;
 
-        void OnValidate()
-        {
-            
-        }
-
+        private float yaw = 0.0f;
+        private float pitch = 0.0f;
         void Start()
         {
             if (characterController == null)
                 characterController = GetComponent<CharacterController>();
             if (capsuleCollider == null)
                 capsuleCollider = GetComponent<CapsuleCollider>();
-            capsuleCollider.enabled = isServer;
+            Cursor.lockState = CursorLockMode.Locked; 
+            
         }
 
         public override void OnStartLocalPlayer()
@@ -34,15 +35,23 @@ namespace Mirror.Examples.Additive
             Camera.main.transform.localPosition = new Vector3(0f, 3f, -8f);
             Camera.main.transform.localEulerAngles = new Vector3(10f, 0f, 0f);
         }
+        void OnEnable()
+        {
+            Debug.Log("Enable player");
+        }
 
         void OnDisable()
         {
+            Debug.Log("Disablking player");
             if (isLocalPlayer && Camera.main != null)
             {
+                characterController.enabled = false;
+
                 Camera.main.orthographic = true;
                 Camera.main.transform.SetParent(null);
                 Camera.main.transform.localPosition = new Vector3(0f, 70f, 0f);
                 Camera.main.transform.localEulerAngles = new Vector3(90f, 0f, 0f);
+                
             }
         }
 
@@ -69,7 +78,7 @@ namespace Mirror.Examples.Additive
             vertical = Input.GetAxis("Vertical");
 
             // Q and E cancel each other out, reducing the turn to zero
-            if (Input.GetKey(KeyCode.Q))
+            /*if (Input.GetKey(KeyCode.Q))
                 turn = Mathf.MoveTowards(turn, -maxTurnSpeed, turnSensitivity);
             if (Input.GetKey(KeyCode.E))
                 turn = Mathf.MoveTowards(turn, maxTurnSpeed, turnSensitivity);
@@ -77,7 +86,11 @@ namespace Mirror.Examples.Additive
                 turn = Mathf.MoveTowards(turn, 0, turnSensitivity);
             if (!Input.GetKey(KeyCode.Q) && !Input.GetKey(KeyCode.E))
                 turn = Mathf.MoveTowards(turn, 0, turnSensitivity);
+            */
+            yaw += speedH * Input.GetAxis("Mouse X");
+            pitch -= speedV * Input.GetAxis("Mouse Y");
 
+            transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
             if (isGrounded)
                 isFalling = false;
 
@@ -112,5 +125,7 @@ namespace Mirror.Examples.Additive
             isGrounded = characterController.isGrounded;
             velocity = characterController.velocity;
         }
+
+
     }
 }
