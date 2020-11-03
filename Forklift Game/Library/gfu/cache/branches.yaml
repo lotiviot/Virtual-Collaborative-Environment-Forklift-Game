@@ -13,33 +13,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-10-21T21:38:14.000-04:00
-  initializedAtString: 2020-10-21T21:38:13.238-04:00
+  lastUpdatedAtString: 2020-11-03T17:01:02.375-06:00
+  initializedAtString: 2020-11-03T16:57:32.395-06:00
   localBranches:
-  - name: controls
-    tracking: 
   - name: environment
     tracking: origin/environment
   - name: master
     tracking: origin/master
-  - name: networking
-    tracking: origin/networking
-  - name: physics
-    tracking: origin/physics
   - name: staging
     tracking: origin/staging
   remoteBranches:
+  - name: origin/controls
+    tracking: '[None]'
   - name: origin/environment
     tracking: '[None]'
   - name: origin/HEAD
     tracking: '[None]'
-  - name: origin/master
-    tracking: '[None]'
   - name: origin/networking
-    tracking: '[None]'
-  - name: origin/physics
-    tracking: '[None]'
-  - name: origin/staging
     tracking: '[None]'
   remotes:
   - name: origin
@@ -51,18 +41,10 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - controls
     - environment
     - master
-    - networking
-    - physics
     - staging
     values:
-    - name: controls
-      remote:
-        name: 
-        url: 
-      trackingBranch: 
     - name: environment
       remote:
         name: origin
@@ -73,16 +55,6 @@ MonoBehaviour:
         name: origin
         url: https://github.com/lotiviot/Virtual-Collaborative-Environment-Forklift-Game.git
       trackingBranch: master
-    - name: networking
-      remote:
-        name: origin
-        url: https://github.com/lotiviot/Virtual-Collaborative-Environment-Forklift-Game.git
-      trackingBranch: networking
-    - name: physics
-      remote:
-        name: origin
-        url: https://github.com/lotiviot/Virtual-Collaborative-Environment-Forklift-Game.git
-      trackingBranch: physics
     - name: staging
       remote:
         name: origin
@@ -93,14 +65,17 @@ MonoBehaviour:
     - origin
     subKeys:
     - Values:
+      - controls
       - environment
       - HEAD
-      - master
       - networking
-      - physics
-      - staging
     subKeyValues:
     - Values:
+      - name: controls
+        remote:
+          name: origin
+          url: https://github.com/lotiviot/Virtual-Collaborative-Environment-Forklift-Game.git
+        trackingBranch: 
       - name: environment
         remote:
           name: origin
@@ -111,22 +86,7 @@ MonoBehaviour:
           name: origin
           url: https://github.com/lotiviot/Virtual-Collaborative-Environment-Forklift-Game.git
         trackingBranch: 
-      - name: master
-        remote:
-          name: origin
-          url: https://github.com/lotiviot/Virtual-Collaborative-Environment-Forklift-Game.git
-        trackingBranch: 
       - name: networking
-        remote:
-          name: origin
-          url: https://github.com/lotiviot/Virtual-Collaborative-Environment-Forklift-Game.git
-        trackingBranch: 
-      - name: physics
-        remote:
-          name: origin
-          url: https://github.com/lotiviot/Virtual-Collaborative-Environment-Forklift-Game.git
-        trackingBranch: 
-      - name: staging
         remote:
           name: origin
           url: https://github.com/lotiviot/Virtual-Collaborative-Environment-Forklift-Game.git
