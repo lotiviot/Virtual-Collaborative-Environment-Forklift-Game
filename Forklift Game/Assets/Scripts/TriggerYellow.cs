@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Trigger : MonoBehaviour
+public class TriggerYellow : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -21,7 +21,7 @@ public class Trigger : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.name == "yellow box 2")
+        if(other.gameObject.name == "yellow box goal")
         {
             Renderer render = GetComponent<Renderer>();
             render.material.color = Color.yellow;
