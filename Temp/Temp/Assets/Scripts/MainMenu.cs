@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Mirror;
 
-public class MainMenu : MonoBehaviour
+public class MainMenu : NetworkBehaviour
 {
+    public NetworkManager Netman;
     public void PlayGame ()
     {
-        SceneManager.LoadScene("Main Environment");
+        NetMan.starthost();
     }
     public void QuitGame()
     {
