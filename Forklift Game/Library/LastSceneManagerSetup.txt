@@ -1,9 +1,0 @@
-sceneSetups:
-<<<<<<< Updated upstream
-- path: Assets/current.unity
-=======
-- path: Assets/Main Menu.unity
->>>>>>> Stashed changes
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
