@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Mirror;
-
 public class MainMenu : NetworkBehaviour
 {
-    public NetworkManager Netman;
+    public NetworkManager NetMan;
     public void PlayGame ()
     {
-        NetMan.starthost();
+        NetMan.StartHost();
+        SceneManager.LoadScene("Main Environment");
     }
     public void QuitGame()
     {
