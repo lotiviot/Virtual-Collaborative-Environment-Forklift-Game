@@ -36,8 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Forklift Controller\Assets\Scripts\Bullet.cs" />
      <Compile Include="Assets\Forklift Controller\Assets\Scripts\FPS\fpsBody.cs" />
      <Compile Include="Assets\Forklift Controller\Assets\Scripts\FPS\fpsCamera.cs" />
+     <Compile Include="Assets\Forklift Controller\Assets\Scripts\Pallet.cs" />
      <Compile Include="Assets\Forklift Controller\Assets\Scripts\camera.cs" />
      <Compile Include="Assets\Forklift Controller\Assets\Scripts\exteriorCamera.cs" />
      <Compile Include="Assets\Forklift Controller\Assets\Scripts\forklift.cs" />

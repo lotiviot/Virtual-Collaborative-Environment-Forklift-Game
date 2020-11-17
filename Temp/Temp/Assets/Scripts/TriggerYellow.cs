@@ -19,10 +19,9 @@ public class TriggerYellow : MonoBehaviour
 
     private Color m_oldColor = Color.green;
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerStay(Collider other)
     {
-        if(other.gameObject.name == "yellow box goal")
-        {
+        if(other.gameObject.CompareTag("GoalPallet"))     {
             Renderer render = GetComponent<Renderer>();
             render.material.color = Color.yellow;
         }

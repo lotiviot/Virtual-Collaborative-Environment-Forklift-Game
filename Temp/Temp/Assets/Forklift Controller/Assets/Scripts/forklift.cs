@@ -48,7 +48,7 @@ public class forklift : MonoBehaviour
     int currentGear = 0;
     bool canEnter = false;
     bool enter = false;
-    float maxPositionY = 3.5f;
+    float maxPositionY = 6.2f;
 
     //when the player is close to the forklift
     private void OnTriggerEnter(Collider other)
@@ -145,7 +145,7 @@ public class forklift : MonoBehaviour
         }
 
         //down the loader
-        if (Input.GetKey(downLoaderKey) && loader.position.y > 0)
+        if (Input.GetKey(downLoaderKey) && loader.position.y > 2.3)
         {
             loader.Translate(new Vector3(0f, -1f, 0f) * Time.deltaTime);
         }

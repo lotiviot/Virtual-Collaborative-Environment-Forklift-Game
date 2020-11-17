@@ -100,8 +100,11 @@ MonoBehaviour:
   mouseYInputName: Mouse Y
   mouseSensitivity: 150
   playerBody: {fileID: 1028751738264741467}
-  FPS: {fileID: 0}
-  PauseMenu: {fileID: 0}
+  FPS: {fileID: 2627496144022872532}
+  PauseMenu: {fileID: 5529325146497084186, guid: 574a9da354e2de1499a0d67cc972e113,
+    type: 3}
+  bulletPrefab: {fileID: 7288068353703010723, guid: 9cf4ee3f02fc5364489c6ddce6968cba,
+    type: 3}
 --- !u!1 &2627496144022872532
 GameObject:
   m_ObjectHideFlags: 0
