@@ -20,7 +20,7 @@ public class Pallet : NetworkBehaviour
     {
         if(other.CompareTag("Bullet"))
             this.tag = "GoalPallet";
-            Debug.Log(this.tag);
+            //Debug.Log(this.tag);
             isGoal = true;
     }
 }

@@ -7,7 +7,7 @@ public class Bullet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Destroy(this,2);
+        Destroy(this.gameObject,2);
     }
 
     // Update is called once per frame
