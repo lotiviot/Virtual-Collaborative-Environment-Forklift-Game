@@ -5,10 +5,19 @@ using Mirror;
 public class Pallet : NetworkBehaviour
 {
     public bool isGoal = false;
+    private int colors = 0;
+    private Renderer renderer;
+    public GameObject top;
+    public GameObject middle;
+    public GameObject bottoms;
+    public Material red;
+    public Material blue;
+    public Material yellow;
+    public Material pallet;
     // Start is called before the first frame update
     void Start()
     {
-        
+        renderer = top.GetComponent<MeshRenderer>();
     }
 
     // Update is called once per frame
@@ -20,7 +29,27 @@ public class Pallet : NetworkBehaviour
     {
         if(other.CompareTag("Bullet"))
             this.tag = "GoalPallet";
-            //Debug.Log(this.tag);
             isGoal = true;
+            colors++;
+            changeMaterial();
+    }
+    private void changeMaterial()
+    {
+        switch(colors)
+        {
+            case 1:
+                renderer.material = red;
+                break;
+            case 2:
+                renderer.material = blue;
+                break;
+            case 3 : 
+                renderer.material = yellow;
+                break;
+            default:
+                colors = 0;
+                renderer.material = pallet;
+                break;
+        }
     }
 }
