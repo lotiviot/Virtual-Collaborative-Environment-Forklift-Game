@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Mirror;
@@ -28,28 +29,39 @@ public class Pallet : NetworkBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Bullet"))
+        {
             this.tag = "GoalPallet";
             isGoal = true;
             colors++;
             changeMaterial();
+        }
     }
     private void changeMaterial()
     {
-        switch(colors)
+        try
         {
-            case 1:
-                renderer.material = red;
-                break;
-            case 2:
-                renderer.material = blue;
-                break;
-            case 3 : 
-                renderer.material = yellow;
-                break;
-            default:
-                colors = 0;
-                renderer.material = pallet;
-                break;
+            Renderer render = GetComponent<Renderer>();
+            switch(colors)
+            {
+                case 1:
+                    
+                    renderer.material = red;
+                    break;
+                case 2:
+                    renderer.material = blue;
+                    break;
+                case 3 : 
+                    renderer.material = yellow;
+                    break;
+                default:
+                    colors = 0;
+                    renderer.material = pallet;
+                    break;
+            }
+        }
+        catch (System.Exception)
+        {
+            Debug.Log("error");            
         }
     }
 }
