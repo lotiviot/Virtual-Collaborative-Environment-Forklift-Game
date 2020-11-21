@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using TMPro;
-
-public class forklift : MonoBehaviour
+using Mirror;
+public class forklift : NetworkBehaviour
 {
     [Header("UI elements")]
     public TextMeshProUGUI gearText;
@@ -58,14 +58,14 @@ public class forklift : MonoBehaviour
             //it can enter
             canEnterText.SetActive(true);
             canEnter = true;
-            FPS = other.gameObject;
+            
         }
     }
 
     //when the player is far away of the forklift
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") )
         {
             //it can not enter
             canEnterText.SetActive(false);
@@ -73,7 +73,7 @@ public class forklift : MonoBehaviour
         }
     }
 
-    private void Start()
+    private void OnStartClient()
     {
         //ignore that
         Application.targetFrameRate = 60;
@@ -84,11 +84,14 @@ public class forklift : MonoBehaviour
 
     void Update()
     {
+        if(!FPS)
+            FPS = GameObject.FindWithTag("Player");
         //if can enter and press F key and is not in
         if (canEnter == true && Input.GetKeyDown(KeyCode.F) && enter == false)
         {
             //then enter the forklift
             FPS.SetActive(false);
+            
             cameraInteriorForklift.SetActive(true);
             cameraExteriorForklift.SetActive(false);
             canEnterText.SetActive(false);
@@ -200,7 +203,7 @@ public class forklift : MonoBehaviour
         gearText.text = "Gear: " + currentGear;
         speedText.text = "Speed: " + currentSpeed.ToString("f2") + "Km/h";
     }
-
+    
     private void UpdateWheelPoses()
     {
         //update wheels position

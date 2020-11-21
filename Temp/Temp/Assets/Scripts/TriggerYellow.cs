@@ -2,14 +2,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Mirror;
 
-public class TriggerYellow : MonoBehaviour
+public class TriggerYellow : NetworkBehaviour
 {
+    [SyncVar(hook=nameof(Status))]
+    public bool trigger;
+    private Color m_oldColor = Color.green;
     // Start is called before the first frame update
     void Start()
     {
+        trigger = false;
         Renderer render = GetComponent<Renderer>();
-        render.material.color = m_oldColor;
+        GetComponent<Renderer>().material.color = m_oldColor;
     }
 
     // Update is called once per frame
@@ -18,20 +23,38 @@ public class TriggerYellow : MonoBehaviour
         
     }
 
-    private Color m_oldColor = Color.green;
-
-    void OnCollisionStay(Collision other)
+    public void Status(bool oldVal,bool newVal)
     {
-        if(other.gameObject.CompareTag("GoalPallet"))     
+        trigger = newVal;
+        if(trigger)
         {
             Renderer render = GetComponent<Renderer>();
             render.material.color = Color.yellow;
         }
-        
+        else
+        {
+            Renderer render = GetComponent<Renderer>();
+            render.material.color = m_oldColor;
+        }
+    }
+    void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.name == "yellow box goal")
+        {   
+            trigger = true;
+            Renderer render = GetComponent<Renderer>();
+            render.material.color = Color.yellow;
+        }
+
     }
     void OnCollisionExit(Collision other)
     {
-        Renderer render = GetComponent<Renderer>();
-        render.material.color = m_oldColor;
+        if (other.gameObject.name == "yellow box goal")
+        {   
+            trigger = true;
+            Renderer render = GetComponent<Renderer>();
+            render.material.color = m_oldColor;
+        }
     }
 }
+

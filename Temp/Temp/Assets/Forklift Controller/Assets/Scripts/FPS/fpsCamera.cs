@@ -38,12 +38,6 @@ public class fpsCamera : MonoBehaviour {
             PauseMenu.SetActive(true);
             Cursor.lockState = CursorLockMode.None;
         }
-        if(Input.GetKeyDown(KeyCode.Space)) 
-        {
-            Fire();
-            Debug.Log ("Shoot");
-
-        }
     }
 
     private void CameraRotation()
@@ -70,12 +64,6 @@ public class fpsCamera : MonoBehaviour {
         playerBody.Rotate(Vector3.up * mouseX);
     }
 
-    void Fire() {
-        Vector3 adjustment = new Vector3(0,.5f,0);
-        Rigidbody bPrefab = Instantiate(bulletPrefab, (transform.position-adjustment), Quaternion.identity) as Rigidbody;
-        bPrefab.velocity = transform.TransformDirection(Vector3.forward * 200);
-        Destroy(bPrefab,2);
-    }
 
     private void limitRotationToValue(float value)
     {
