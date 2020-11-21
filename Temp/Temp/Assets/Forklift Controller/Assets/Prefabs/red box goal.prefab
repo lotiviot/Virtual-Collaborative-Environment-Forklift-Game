@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: red box goal
       objectReference: {fileID: 0}
+    - target: {fileID: 1067589438889076, guid: 4f35d7d005380c046bc609e69d07ed5a, type: 3}
+      propertyPath: m_TagString
+      value: GoalPallet
+      objectReference: {fileID: 0}
     - target: {fileID: 4123379006006610, guid: 4f35d7d005380c046bc609e69d07ed5a, type: 3}
       propertyPath: m_RootOrder
       value: 0

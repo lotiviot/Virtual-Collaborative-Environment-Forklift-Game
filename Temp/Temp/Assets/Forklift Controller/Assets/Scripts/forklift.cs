@@ -6,6 +6,8 @@ public class forklift : NetworkBehaviour
     [Header("UI elements")]
     public TextMeshProUGUI gearText;
     public TextMeshProUGUI speedText;
+    public GameObject shelfText;
+    public GameObject palletText;
     public GameObject canEnterText;
     public GameObject inForkliftMenu;
     [Header("WHEEL COLLIDERS")]
@@ -51,7 +53,7 @@ public class forklift : NetworkBehaviour
     float maxPositionY = 6.2f;
 
     //when the player is close to the forklift
-    private void OnTriggerEnter(Collider other)
+        private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
@@ -60,8 +62,22 @@ public class forklift : NetworkBehaviour
             canEnter = true;
             
         }
-    }
 
+        if(other.gameObject.CompareTag("Shelf"))
+        {
+            //Debug.Log("Colliding!");
+            shelfText.SetActive(true);
+        }
+
+    }
+    private void OnCollisionEnter(Collision other)
+    {        
+        if(other.gameObject.CompareTag("Pallet"))
+        {
+            //Debug.Log("Colliding!");
+            palletText.SetActive(true);
+        }
+    }
     //when the player is far away of the forklift
     private void OnTriggerExit(Collider other)
     {
@@ -71,19 +87,35 @@ public class forklift : NetworkBehaviour
             canEnterText.SetActive(false);
             canEnter = false;
         }
+        if(other.CompareTag("Shelf"))
+        {
+            shelfText.SetActive(false);
+        }
     }
 
-    private void OnStartClient()
+    private void OnCollisionExit(Collision other)
+    {        
+        if(other.gameObject.CompareTag("Pallet"))
+        {
+            //Debug.Log("Colliding!");
+            palletText.SetActive(false);
+        }
+    }
+
+    private void OnStart()
     {
         //ignore that
         Application.targetFrameRate = 60;
 
         //aply the center of mass
-        rb.centerOfMass = new Vector3(rb.centerOfMass.x, centerOfMass.position.y, rb.centerOfMass.z);
-    }
+        rb.centerOfMass = new Vector3(rb.centerOfMass.x, centerOfMass.position.y, rb.centerOfMass.z); 
+    } 
+
+
 
     void Update()
     {
+    
         if(!FPS)
             FPS = GameObject.FindWithTag("Player");
         //if can enter and press F key and is not in

@@ -7,6 +7,7 @@ TagManager:
   - Bullet
   - Pallet
   - GoalPallet
+  - Shelf
   layers:
   - Default
   - TransparentFX
