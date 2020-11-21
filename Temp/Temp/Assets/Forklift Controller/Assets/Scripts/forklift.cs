@@ -24,7 +24,7 @@ public class forklift : NetworkBehaviour
 
     public Transform exitPosition;
     public Transform loader;
-    public Transform centerOfMass;
+    public Transform setCenterOfMass;
     public GameObject steeringWheel;
     public Rigidbody rb;
     public GameObject cameraInteriorForklift;
@@ -53,7 +53,7 @@ public class forklift : NetworkBehaviour
     float maxPositionY = 6.2f;
 
     //when the player is close to the forklift
-        private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
@@ -102,19 +102,22 @@ public class forklift : NetworkBehaviour
         }
     }
 
-    private void OnStart()
+    private void Awake()
     {
         //ignore that
         Application.targetFrameRate = 60;
 
+        Debug.Log("start");
         //aply the center of mass
-        rb.centerOfMass = new Vector3(rb.centerOfMass.x, centerOfMass.position.y, rb.centerOfMass.z); 
+        rb.centerOfMass = new Vector3(rb.centerOfMass.x, setCenterOfMass.position.y, rb.centerOfMass.z); 
+    
     } 
 
 
 
     void Update()
     {
+        
     
         if(!FPS)
             FPS = GameObject.FindWithTag("Player");

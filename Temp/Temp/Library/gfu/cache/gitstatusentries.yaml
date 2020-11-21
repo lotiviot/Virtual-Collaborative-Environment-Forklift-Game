@@ -13,44 +13,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-11-21T14:37:11.698-06:00
-  initializedAtString: 2020-11-21T14:02:39.274-06:00
+  lastUpdatedAtString: 2020-11-21T15:27:05.087-06:00
+  initializedAtString: 2020-11-21T15:27:05.087-06:00
   entries:
-  - path: Temp\Temp\Assets\Forklift Controller\Assets\Prefabs\blue box goal.prefab
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Assets\Forklift
-      Controller\Assets\Prefabs\blue box goal.prefab
-    projectPath: Assets\Forklift Controller\Assets\Prefabs\blue box goal.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Temp\Temp\Assets\Forklift Controller\Assets\Prefabs\Canvas (3).prefab
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Assets\Forklift
-      Controller\Assets\Prefabs\Canvas (3).prefab
-    projectPath: Assets\Forklift Controller\Assets\Prefabs\Canvas (3).prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Temp\Temp\Assets\Forklift Controller\Assets\Prefabs\red box goal.prefab
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Assets\Forklift
-      Controller\Assets\Prefabs\red box goal.prefab
-    projectPath: Assets\Forklift Controller\Assets\Prefabs\red box goal.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Temp\Temp\Assets\Forklift Controller\Assets\Prefabs\Warehouse Shelf.prefab
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Assets\Forklift
-      Controller\Assets\Prefabs\Warehouse Shelf.prefab
-    projectPath: Assets\Forklift Controller\Assets\Prefabs\Warehouse Shelf.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Temp\Temp\Assets\Forklift Controller\Assets\Prefabs\yellow box goal.prefab
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Assets\Forklift
-      Controller\Assets\Prefabs\yellow box goal.prefab
-    projectPath: Assets\Forklift Controller\Assets\Prefabs\yellow box goal.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Temp\Temp\Assets\Forklift Controller\Assets\Scripts\forklift.cs
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Assets\Forklift
       Controller\Assets\Scripts\forklift.cs
@@ -71,63 +36,51 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Temp\Temp\Library\Artifacts\09\09dac757752629f13ef926b72d231bd5
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\09\09dac757752629f13ef926b72d231bd5
-    projectPath: Library\Artifacts\09\09dac757752629f13ef926b72d231bd5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Temp\Temp\Library\Artifacts\0b\0b9bad1d8b3ad87fd6f22fdb556d9c96
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\0b\0b9bad1d8b3ad87fd6f22fdb556d9c96
     projectPath: Library\Artifacts\0b\0b9bad1d8b3ad87fd6f22fdb556d9c96
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\Temp\Library\Artifacts\0f\0f5b40fa2c62e77a11a834c450b669b4
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\0f\0f5b40fa2c62e77a11a834c450b669b4
     projectPath: Library\Artifacts\0f\0f5b40fa2c62e77a11a834c450b669b4
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\Temp\Library\Artifacts\1f\1f27b861a8c1bb3b3dde8555cbc82602
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\1f\1f27b861a8c1bb3b3dde8555cbc82602
     projectPath: Library\Artifacts\1f\1f27b861a8c1bb3b3dde8555cbc82602
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp\Temp\Library\Artifacts\25\25bb1e4e73e9fdff497de5442d0710a0
+    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\25\25bb1e4e73e9fdff497de5442d0710a0
+    projectPath: Library\Artifacts\25\25bb1e4e73e9fdff497de5442d0710a0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp\Temp\Library\Artifacts\29\29d6a70bd4eebf441d92ea27bfd3008e
+    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\29\29d6a70bd4eebf441d92ea27bfd3008e
+    projectPath: Library\Artifacts\29\29d6a70bd4eebf441d92ea27bfd3008e
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\Temp\Library\Artifacts\2d\2db9c217c1dc1e72e331d1da7081faf2
+    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\2d\2db9c217c1dc1e72e331d1da7081faf2
+    projectPath: Library\Artifacts\2d\2db9c217c1dc1e72e331d1da7081faf2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\Temp\Library\Artifacts\47\4783c9c8d6b0064b32e4cf450f5ece7c
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\47\4783c9c8d6b0064b32e4cf450f5ece7c
     projectPath: Library\Artifacts\47\4783c9c8d6b0064b32e4cf450f5ece7c
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\Temp\Library\Artifacts\4e\4efa1cf7f11067579dd25ea1f44b47fd
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\4e\4efa1cf7f11067579dd25ea1f44b47fd
     projectPath: Library\Artifacts\4e\4efa1cf7f11067579dd25ea1f44b47fd
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Temp\Library\Artifacts\5a\5aec4c5e4cf9e1d312ad57eb789057ee
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\5a\5aec4c5e4cf9e1d312ad57eb789057ee
-    projectPath: Library\Artifacts\5a\5aec4c5e4cf9e1d312ad57eb789057ee
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Temp\Library\Artifacts\5b\5ba2276314e910a89195313921464e60
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\5b\5ba2276314e910a89195313921464e60
-    projectPath: Library\Artifacts\5b\5ba2276314e910a89195313921464e60
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Temp\Library\Artifacts\5d\5d108be1afe0099170e344b97ac23696
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\5d\5d108be1afe0099170e344b97ac23696
-    projectPath: Library\Artifacts\5d\5d108be1afe0099170e344b97ac23696
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Temp\Library\Artifacts\62\629a5467206b2d6ec26aa8eb7e06e956
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\62\629a5467206b2d6ec26aa8eb7e06e956
-    projectPath: Library\Artifacts\62\629a5467206b2d6ec26aa8eb7e06e956
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -135,11 +88,11 @@ MonoBehaviour:
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\6c\6cc94313cf0857518e9259f0f43a01f8
     projectPath: Library\Artifacts\6c\6cc94313cf0857518e9259f0f43a01f8
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Temp\Library\Artifacts\72\7206a63853348026b77876ecbb73fa0f
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\72\7206a63853348026b77876ecbb73fa0f
-    projectPath: Library\Artifacts\72\7206a63853348026b77876ecbb73fa0f
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp\Temp\Library\Artifacts\6f\6ff292972783a55a9770237ac4c63bc5
+    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\6f\6ff292972783a55a9770237ac4c63bc5
+    projectPath: Library\Artifacts\6f\6ff292972783a55a9770237ac4c63bc5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -147,17 +100,23 @@ MonoBehaviour:
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\76\76b55f03da3836ead5eecb562a25897f
     projectPath: Library\Artifacts\76\76b55f03da3836ead5eecb562a25897f
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\Temp\Library\Artifacts\77\77c96b52800f0fc626440ef3e39b19ae
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\77\77c96b52800f0fc626440ef3e39b19ae
     projectPath: Library\Artifacts\77\77c96b52800f0fc626440ef3e39b19ae
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\Temp\Library\Artifacts\78\7856ef7d7a98a28af10319d117248882
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\78\7856ef7d7a98a28af10319d117248882
     projectPath: Library\Artifacts\78\7856ef7d7a98a28af10319d117248882
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp\Temp\Library\Artifacts\84\84a6c9b8a940c6f7eb730f506be01a08
+    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\84\84a6c9b8a940c6f7eb730f506be01a08
+    projectPath: Library\Artifacts\84\84a6c9b8a940c6f7eb730f506be01a08
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -165,74 +124,122 @@ MonoBehaviour:
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\8d\8d8039e6e6f2bfed1b32b8272a4f02b1
     projectPath: Library\Artifacts\8d\8d8039e6e6f2bfed1b32b8272a4f02b1
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp\Temp\Library\Artifacts\90\909f6ce88e823dc3d8291576fa735b05
+    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\90\909f6ce88e823dc3d8291576fa735b05
+    projectPath: Library\Artifacts\90\909f6ce88e823dc3d8291576fa735b05
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp\Temp\Library\Artifacts\91\919840f95f6f442d1c31e423d4416b9b
+    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\91\919840f95f6f442d1c31e423d4416b9b
+    projectPath: Library\Artifacts\91\919840f95f6f442d1c31e423d4416b9b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp\Temp\Library\Artifacts\9d\9d0509a1c898b79fa39a72ce6a64a0d2
+    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\9d\9d0509a1c898b79fa39a72ce6a64a0d2
+    projectPath: Library\Artifacts\9d\9d0509a1c898b79fa39a72ce6a64a0d2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\Temp\Library\Artifacts\a1\a17f1f8c1fd24627d59f658ad0da4f78
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\a1\a17f1f8c1fd24627d59f658ad0da4f78
     projectPath: Library\Artifacts\a1\a17f1f8c1fd24627d59f658ad0da4f78
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp\Temp\Library\Artifacts\a4\a49279d3985638e8860456a0dc063376
+    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\a4\a49279d3985638e8860456a0dc063376
+    projectPath: Library\Artifacts\a4\a49279d3985638e8860456a0dc063376
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp\Temp\Library\Artifacts\ab\abdf90098105eb61c228e6adcdb73149
+    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\ab\abdf90098105eb61c228e6adcdb73149
+    projectPath: Library\Artifacts\ab\abdf90098105eb61c228e6adcdb73149
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp\Temp\Library\Artifacts\b1\b19cdec0984145cebde9aba5ea865212
+    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\b1\b19cdec0984145cebde9aba5ea865212
+    projectPath: Library\Artifacts\b1\b19cdec0984145cebde9aba5ea865212
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\Temp\Library\Artifacts\b1\b1d1896e122e3d50312b619ebeaf2e8b
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\b1\b1d1896e122e3d50312b619ebeaf2e8b
     projectPath: Library\Artifacts\b1\b1d1896e122e3d50312b619ebeaf2e8b
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Temp\Library\Artifacts\bf\bf64e69818b47d5aa7e1b0e49ce8018c
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\bf\bf64e69818b47d5aa7e1b0e49ce8018c
-    projectPath: Library\Artifacts\bf\bf64e69818b47d5aa7e1b0e49ce8018c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\Temp\Library\Artifacts\d2\d2409965154ae2d2af0ae896d1122b57
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\d2\d2409965154ae2d2af0ae896d1122b57
     projectPath: Library\Artifacts\d2\d2409965154ae2d2af0ae896d1122b57
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp\Temp\Library\Artifacts\d4\d4263c153b4c94949dc5283807cf6dc2
+    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\d4\d4263c153b4c94949dc5283807cf6dc2
+    projectPath: Library\Artifacts\d4\d4263c153b4c94949dc5283807cf6dc2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\Temp\Library\Artifacts\d7\d7648184583f27c16ccca8d5d5be4acc
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\d7\d7648184583f27c16ccca8d5d5be4acc
     projectPath: Library\Artifacts\d7\d7648184583f27c16ccca8d5d5be4acc
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\Temp\Library\Artifacts\d7\d7693dcca3e707a8bb4494263de03c81
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\d7\d7693dcca3e707a8bb4494263de03c81
     projectPath: Library\Artifacts\d7\d7693dcca3e707a8bb4494263de03c81
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\Temp\Library\Artifacts\e3\e3a0943ea2633eb0ef946c306c355df3
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\e3\e3a0943ea2633eb0ef946c306c355df3
     projectPath: Library\Artifacts\e3\e3a0943ea2633eb0ef946c306c355df3
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\Temp\Library\Artifacts\e4\e4f7e08ebc5f015f2cbb95194f8bceca
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\e4\e4f7e08ebc5f015f2cbb95194f8bceca
     projectPath: Library\Artifacts\e4\e4f7e08ebc5f015f2cbb95194f8bceca
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\Temp\Library\Artifacts\f1\f140e9c12a90456f234b379dd97b9c15
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\f1\f140e9c12a90456f234b379dd97b9c15
     projectPath: Library\Artifacts\f1\f140e9c12a90456f234b379dd97b9c15
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\Temp\Library\Artifacts\f5\f5a89d4c7326cb45d2980fa8747e1a01
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\f5\f5a89d4c7326cb45d2980fa8747e1a01
     projectPath: Library\Artifacts\f5\f5a89d4c7326cb45d2980fa8747e1a01
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp\Temp\Library\Artifacts\fb\fb0321419763e1f2811ab269ca03dd83
+    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\fb\fb0321419763e1f2811ab269ca03dd83
+    projectPath: Library\Artifacts\fb\fb0321419763e1f2811ab269ca03dd83
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp\Temp\Library\Artifacts\fb\fbecbdb7513b7c486e8b39399c65934d
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\Artifacts\fb\fbecbdb7513b7c486e8b39399c65934d
     projectPath: Library\Artifacts\fb\fbecbdb7513b7c486e8b39399c65934d
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp\Temp\Library\CurrentLayout-default.dwlt
+    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Temp\Temp\Library\EditorInstance.json
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
@@ -254,12 +261,6 @@ MonoBehaviour:
   - path: Temp\Temp\Library\gfu\cache\repoinfo.yaml
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Temp\Temp\Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -329,111 +330,45 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Temp\Temp\Library\shadercompiler-UnityShaderCompiler.exe5.log
+    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\shadercompiler-UnityShaderCompiler.exe5.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\Temp\Library\shadercompiler-UnityShaderCompiler.exe7.log
+    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\shadercompiler-UnityShaderCompiler.exe7.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\Temp\Library\shadercompiler-UnityShaderCompiler.exe8.log
+    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\shadercompiler-UnityShaderCompiler.exe8.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe8.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Temp\Temp\Library\SourceAssetDB
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Temp\Temp\Library\StateCache\Hierarchy\b8181c-04bbebc0fb921c14f9.json
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\StateCache\Hierarchy\b8181c-04bbebc0fb921c14f9.json
-    projectPath: Library\StateCache\Hierarchy\b8181c-04bbebc0fb921c14f9.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Temp\Library\StateCache\Hierarchy\b8181c-b56ae462599fcaf469.json
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\StateCache\Hierarchy\b8181c-b56ae462599fcaf469.json
-    projectPath: Library\StateCache\Hierarchy\b8181c-b56ae462599fcaf469.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Temp\Library\StateCache\Hierarchy\b8181c-ed13746adbc09de49b.json
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\StateCache\Hierarchy\b8181c-ed13746adbc09de49b.json
-    projectPath: Library\StateCache\Hierarchy\b8181c-ed13746adbc09de49b.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Temp\Library\StateCache\Hierarchy\b8181c-mainStage.json
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\StateCache\Hierarchy\b8181c-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\b8181c-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Temp\Temp\Library\StateCache\SceneView\450375-04bbebc0fb921c14f9.json
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\StateCache\SceneView\450375-04bbebc0fb921c14f9.json
-    projectPath: Library\StateCache\SceneView\450375-04bbebc0fb921c14f9.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Temp\Library\StateCache\SceneView\450375-b56ae462599fcaf469.json
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\StateCache\SceneView\450375-b56ae462599fcaf469.json
-    projectPath: Library\StateCache\SceneView\450375-b56ae462599fcaf469.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Temp\Library\StateCache\SceneView\450375-ed13746adbc09de49b.json
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\StateCache\SceneView\450375-ed13746adbc09de49b.json
-    projectPath: Library\StateCache\SceneView\450375-ed13746adbc09de49b.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Temp\Temp\Library\StateCache\SceneView\450375-mainStage.json
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Library\StateCache\SceneView\450375-mainStage.json
     projectPath: Library\StateCache\SceneView\450375-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Temp\Temp\ProjectSettings\TagManager.asset
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\ProjectSettings\TagManager.asset
-    projectPath: ProjectSettings\TagManager.asset
+  - path: Temp\Temp\ProjectSettings\QualitySettings.asset
+    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\ProjectSettings\QualitySettings.asset
+    projectPath: ProjectSettings\QualitySettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Temp\Temp\Temp\__Backupscenes\0.backup
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Temp\__Backupscenes\0.backup
-    projectPath: Temp\__Backupscenes\0.backup
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Temp\Temp\Temp\UnityLockfile
     fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Temp\Temp\UnityTempFile-0acb6648ab7d085468813f3dacb2f8be
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Temp\UnityTempFile-0acb6648ab7d085468813f3dacb2f8be
-    projectPath: Temp\UnityTempFile-0acb6648ab7d085468813f3dacb2f8be
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Temp\Temp\UnityTempFile-1ba450116a8350b468f359e47c25a6df
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Temp\UnityTempFile-1ba450116a8350b468f359e47c25a6df
-    projectPath: Temp\UnityTempFile-1ba450116a8350b468f359e47c25a6df
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Temp\Temp\UnityTempFile-2858e746c848e1741b57c0bf61dff85e
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Temp\UnityTempFile-2858e746c848e1741b57c0bf61dff85e
-    projectPath: Temp\UnityTempFile-2858e746c848e1741b57c0bf61dff85e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Temp\Temp\UnityTempFile-67849b6076586cf43ac9e13b84664520
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Temp\UnityTempFile-67849b6076586cf43ac9e13b84664520
-    projectPath: Temp\UnityTempFile-67849b6076586cf43ac9e13b84664520
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Temp\Temp\UnityTempFile-ad32a2f90c7dc8f4e8f0296d4c3ecce5
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Temp\UnityTempFile-ad32a2f90c7dc8f4e8f0296d4c3ecce5
-    projectPath: Temp\UnityTempFile-ad32a2f90c7dc8f4e8f0296d4c3ecce5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Temp\Temp\UnityTempFile-cb5368ca5b91e464983d6833984f6511
-    fullPath: C:\Users\makec\Documents\GitHub\Virtual-Collaborative-Environment-Forklift-Game\Temp\Temp\Temp\UnityTempFile-cb5368ca5b91e464983d6833984f6511
-    projectPath: Temp\UnityTempFile-cb5368ca5b91e464983d6833984f6511
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

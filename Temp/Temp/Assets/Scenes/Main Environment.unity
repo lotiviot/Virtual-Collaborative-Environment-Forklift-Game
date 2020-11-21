@@ -18617,6 +18617,11 @@ PrefabInstance:
       propertyPath: palletText
       value: 
       objectReference: {fileID: 1566215898}
+    - target: {fileID: 1278931920556643330, guid: 16dab19377c92a24094b03e41616887e,
+        type: 3}
+      propertyPath: setCenterOfMass
+      value: 
+      objectReference: {fileID: 645549928}
     - target: {fileID: 1325734630172526071, guid: 16dab19377c92a24094b03e41616887e,
         type: 3}
       propertyPath: m_Name
@@ -18700,7 +18705,7 @@ PrefabInstance:
     - target: {fileID: 6847461884738721549, guid: 16dab19377c92a24094b03e41616887e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -25331
+      value: -151
       objectReference: {fileID: 0}
     - target: {fileID: 7406081010697271548, guid: 16dab19377c92a24094b03e41616887e,
         type: 3}
@@ -18709,6 +18714,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16dab19377c92a24094b03e41616887e, type: 3}
+--- !u!4 &645549928 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6847461884738721549, guid: 16dab19377c92a24094b03e41616887e,
+    type: 3}
+  m_PrefabInstance: {fileID: 645549927}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &651791050
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -86,35 +86,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11282}
     - Class: 114
-      Script: {instanceID: 11310}
+      Script: {instanceID: 11308}
     - Class: 114
-      Script: {instanceID: 11580}
+      Script: {instanceID: 11578}
     - Class: 114
-      Script: {instanceID: 11702}
+      Script: {instanceID: 11700}
     - Class: 114
-      Script: {instanceID: 11842}
+      Script: {instanceID: 11840}
     - Class: 114
-      Script: {instanceID: 12048}
+      Script: {instanceID: 12046}
     - Class: 114
-      Script: {instanceID: 12184}
+      Script: {instanceID: 12182}
     - Class: 114
-      Script: {instanceID: 12366}
+      Script: {instanceID: 12364}
     - Class: 114
-      Script: {instanceID: 13078}
+      Script: {instanceID: 13076}
     - Class: 114
-      Script: {instanceID: 13184}
+      Script: {instanceID: 13182}
     - Class: 114
-      Script: {instanceID: 13266}
+      Script: {instanceID: 13264}
     - Class: 114
-      Script: {instanceID: 13334}
+      Script: {instanceID: 13332}
     - Class: 114
-      Script: {instanceID: 13516}
+      Script: {instanceID: 13514}
     - Class: 114
-      Script: {instanceID: 13526}
+      Script: {instanceID: 13524}
     - Class: 114
-      Script: {instanceID: 13664}
+      Script: {instanceID: 13662}
     - Class: 114
-      Script: {instanceID: 13764}
+      Script: {instanceID: 13762}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -161,47 +161,47 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11280}
     - Class: 114
-      Script: {instanceID: 11310}
+      Script: {instanceID: 11308}
     - Class: 114
-      Script: {instanceID: 11504}
+      Script: {instanceID: 11502}
     - Class: 114
-      Script: {instanceID: 11508}
+      Script: {instanceID: 11506}
     - Class: 114
-      Script: {instanceID: 11568}
+      Script: {instanceID: 11566}
     - Class: 114
-      Script: {instanceID: 11698}
+      Script: {instanceID: 11696}
     - Class: 114
-      Script: {instanceID: 12048}
+      Script: {instanceID: 12046}
     - Class: 114
-      Script: {instanceID: 12082}
+      Script: {instanceID: 12080}
     - Class: 114
-      Script: {instanceID: 12198}
+      Script: {instanceID: 12196}
     - Class: 114
-      Script: {instanceID: 12920}
+      Script: {instanceID: 12918}
     - Class: 114
-      Script: {instanceID: 12938}
+      Script: {instanceID: 12936}
     - Class: 114
-      Script: {instanceID: 13108}
+      Script: {instanceID: 13106}
     - Class: 114
-      Script: {instanceID: 13180}
+      Script: {instanceID: 13178}
     - Class: 114
-      Script: {instanceID: 13184}
+      Script: {instanceID: 13182}
     - Class: 114
-      Script: {instanceID: 13266}
+      Script: {instanceID: 13264}
     - Class: 114
-      Script: {instanceID: 13334}
+      Script: {instanceID: 13332}
     - Class: 114
-      Script: {instanceID: 13490}
+      Script: {instanceID: 13488}
     - Class: 114
-      Script: {instanceID: 13526}
+      Script: {instanceID: 13524}
     - Class: 114
-      Script: {instanceID: 13620}
+      Script: {instanceID: 13618}
     - Class: 114
-      Script: {instanceID: 13764}
+      Script: {instanceID: 13762}
     - Class: 114
-      Script: {instanceID: 13786}
+      Script: {instanceID: 13784}
     - Class: 114
-      Script: {instanceID: 13854}
+      Script: {instanceID: 13852}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -389,7 +389,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 6bba7b830ff80c058cff2855c33ffa75
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TriggerRed
@@ -461,7 +461,7 @@ ScriptsOnlyBuild:
     className: Bullet
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 6bba7b830ff80c058cff2855c33ffa75
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TriggerYellow
@@ -1001,7 +1001,7 @@ ScriptsOnlyBuild:
     className: ServerListUIItem
   - hash:
       serializedVersion: 2
-      Hash: 62da1177a155a224ed0088d3e806f03e
+      Hash: 1a61205dd41f2661e67ea5bfc975cdff
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: forklift
