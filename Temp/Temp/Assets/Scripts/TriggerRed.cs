@@ -37,9 +37,9 @@ public class TriggerRed : NetworkBehaviour
             render.material.color = m_oldColor;
         }
     }
-    void OnCollisionEnter(Collision other)
+    void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "red box goal")
+        if (other.gameObject.CompareTag("RedGoalPallet"))
         {   
             trigger = true;
             Renderer render = GetComponent<Renderer>();
@@ -47,9 +47,9 @@ public class TriggerRed : NetworkBehaviour
         }
 
     }
-    void OnCollisionExit(Collision other)
+    void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.name == "red box goal")
+        if (other.gameObject.CompareTag("RedGoalPallet"))
         {   
             trigger = true;
             Renderer render = GetComponent<Renderer>();

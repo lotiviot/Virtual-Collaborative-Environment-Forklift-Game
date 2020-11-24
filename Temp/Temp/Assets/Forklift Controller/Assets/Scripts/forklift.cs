@@ -44,7 +44,9 @@ public class forklift : NetworkBehaviour
     public KeyCode changeCameraKey = KeyCode.C;
     public KeyCode upLoaderKey = KeyCode.O;
     public KeyCode downLoaderKey = KeyCode.L;
-    
+     
+    [SyncVar]
+    bool hasEntered = false;
 
     [Range(-1, 1)]
     int currentGear = 0;
@@ -55,9 +57,8 @@ public class forklift : NetworkBehaviour
     //when the player is close to the forklift
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player")&&!hasEntered && other.name=="player484")
         {
-            //it can enter
             canEnterText.SetActive(true);
             canEnter = true;
             
@@ -81,9 +82,10 @@ public class forklift : NetworkBehaviour
     //when the player is far away of the forklift
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player") )
+        if (other.CompareTag("Player"))
         {
             //it can not enter
+            
             canEnterText.SetActive(false);
             canEnter = false;
         }
@@ -116,15 +118,21 @@ public class forklift : NetworkBehaviour
 
 
     void Update()
-    {
-        
-    
+    {    
+        if(hasEntered)
+        {
+            canEnterText.SetActive(false);
+            canEnter = false;
+        }
         if(!FPS)
+        {
             FPS = GameObject.FindWithTag("Player");
+        }
         //if can enter and press F key and is not in
-        if (canEnter == true && Input.GetKeyDown(KeyCode.F) && enter == false)
+        if (canEnter == true && Input.GetKeyDown(KeyCode.F) && hasEntered == false)
         {
             //then enter the forklift
+            hasEntered = true;
             FPS.SetActive(false);
             
             cameraInteriorForklift.SetActive(true);
@@ -195,6 +203,7 @@ public class forklift : NetworkBehaviour
         if (Input.GetKeyDown(KeyCode.Z))
         {
             //exit the forklift
+            hasEntered = false;
             inForkliftMenu.SetActive(false);
             enter = false;
             FPS.transform.position = exitPosition.position;

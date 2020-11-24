@@ -30,6 +30,7 @@ public class fpsBody : NetworkBehaviour
         }
         //isVisible(hasBody,hasBodyServ);
         fpsCamera.SetActive(true);
+        this.name="player"+netId;
         charController = GetComponent<CharacterController>();
     }
     public void goAway(bool oldPlayer, bool newPlayer)

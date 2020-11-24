@@ -8,6 +8,9 @@ TagManager:
   - Pallet
   - GoalPallet
   - Shelf
+  - YellowGoalPallet
+  - RedGoalPallet
+  - BlueGoalPallet
   layers:
   - Default
   - TransparentFX

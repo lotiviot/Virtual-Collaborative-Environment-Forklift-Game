@@ -79,14 +79,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  isGoal: 0
-  top: {fileID: 1430426752105286}
-  middle: {fileID: 1905446265365988}
-  bottoms: {fileID: 1634066863542934}
-  red: {fileID: 2100000, guid: 6141ed9863d8a8d48b0a42bffa9f1a6d, type: 2}
-  blue: {fileID: 2100000, guid: a7f58d1b0ab7bb34bb2bc3850936343b, type: 2}
-  yellow: {fileID: 2100000, guid: ab063db7c5b2d3445a553324506b090f, type: 2}
-  pallet: {fileID: 2100000, guid: 125834d447962974e8f8937aed33bc63, type: 2}
 --- !u!114 &8768929783529190895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -294,7 +286,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 125834d447962974e8f8937aed33bc63, type: 2}
+  - {fileID: 2100000, guid: 125e831fecb156345abb8cb5ac2e76a7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
